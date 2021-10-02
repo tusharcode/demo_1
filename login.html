@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Sample Demo</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/fancybox/fancybox.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="prefetch" href="img/zoom.png">
+
+</head>
+
+<body data-spy="scroll" data-offset="58" data-target="#navigation" style="background-color: unset;">
+
+  <!-- === Slide 6 / Contact === -->
+  <div class="slide story" data-slide="6" style="background-color: unset;">
+    <div class="container">
+      <div class="title-row" style="padding-bottom: unset;">
+        <div class="col-12 font-light"><span class="font-semibold" style="color: #000000;">
+            Admin Login
+          </span>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-md-8 col-md-offset-2">
+
+          <form class="contact-form php-mail-form" role="form" method="POST">
+            <hr class="colorgraph">
+
+            <div class="form-group">
+              <label for="contact-email">Admin Email</label>
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Admin Email"
+                data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Password</label>
+              <input type="password" name="subject" class="form-control" id="contact-subject" placeholder="Password"
+                data-rule="required" data-msg="Please enter a password">
+              <div class="validate"></div>
+            </div>
+
+            <hr class="colorgraph">
+
+            <div class="form-send">
+              <!-- <button type="submit" class="btn btn-large">Login</button> -->
+              <a href="./add-product.html" class="btn btn-primary btn-block">
+                <i class="fa fa-unlock" aria-hidden="true"></i>
+                &nbsp; Login
+              </a>
+              <a href="./index.html" class="btn btn-large" style="color: #000000;">Back to Home</a>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- /container -->
+  </div>
+
+  <div id="copyrights" class="login-footer">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong></strong> All Rights Reserved
+      </p>
+      <!-- <div class="credits">
+        Created with Munter template by <a href="https://templatemag.com/">TemplateMag</a>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Product Details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12"><img src="img/portfolio/p1.jpg" alt="" style="width: 200px;"></div>
+            <div class="col-md-12">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero quos minima doloremque tempore id rerum
+              necessitatibus similique commodi amet! Quaerat doloribus et adipisci delectus, soluta quam iure at dolorum
+              natus?
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/fancybox/fancybox.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
